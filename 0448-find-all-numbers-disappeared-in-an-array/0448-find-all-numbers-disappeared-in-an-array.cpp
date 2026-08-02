@@ -15,22 +15,22 @@ public:
         }
         nums[prev+1]=curr;
     }
-    int expected = 1;
+    int exp = 1;
     
     for (i = 0; i < n; i++) 
     {
-        while (expected < nums[i]) {
-            result.push_back(expected);
-            expected++;
+        while (exp < nums[i]) {
+            result.push_back(exp);
+            exp++;
         }
-        if (nums[i] == expected) {
-            expected++;
+        if (nums[i] == exp) {
+            exp++;
         }
     }
-    while (expected <= n)
+    while (exp <= n)
     {
-        result.push_back(expected);
-        expected++;
+        result.push_back(exp);
+        exp++;
     }
     return result;
     }
