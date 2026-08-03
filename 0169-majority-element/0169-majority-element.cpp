@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//first perform incercion sort then the majority element will cover most of middle part so print the middle element
 public:
     int majorityElement(vector<int>& nums) {
          int i,n= nums.size();
