@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//use sort then find missing number
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums)
     {
