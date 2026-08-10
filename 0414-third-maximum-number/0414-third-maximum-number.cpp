@@ -2,8 +2,8 @@ class Solution {
 public:
     int thirdMax(vector<int>& nums)
     {
-        int i,j,max=0,n= nums.size();
-        if(nums.size()<2)
+        int i,j, max=0,n= nums.size();
+        if(n<2)
         {
             for(i=0;i<n;i++)
             if(nums[i]>max)
@@ -11,17 +11,7 @@ public:
                 max=nums[i];
             }
         }
-    for(int i=1;i<n;i++)
-    {
-        int curr=nums[i];
-        int prev=i-1;
-        while(prev>=0 && nums[prev]>curr)
-        {
-            nums[prev+1]=nums[prev];
-            prev--;
-        }
-        nums[prev+1]=curr;
-    }
+    sort(nums.begin(), nums.end());
     if (nums.empty()) {
             return 0;
         }
