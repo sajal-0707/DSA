@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//first take unordered set
 public:
     bool isHappy(int n)
     {
