@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// a for each loop then conditions
 public:
     bool isValid(string s) {
         stack<char> st;
