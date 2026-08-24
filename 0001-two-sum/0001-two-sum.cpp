@@ -1,5 +1,5 @@
 class Solution {
-public://sum
+public://two sum in array
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> seen;
         for (int i = 0; i < nums.size(); i++) {
