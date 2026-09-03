@@ -1,6 +1,6 @@
 class Solution { // first reverse  and then compare
 public:
-    bool isPalindrome(int x)
+    bool isPalindrome(int x )
 {
         if (x<0)
         {
