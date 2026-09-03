@@ -1,4 +1,4 @@
-class Solution { //  reverse  and then compare
+class Solution { // first reverse  and then compare
 public:
     bool isPalindrome(int x)
 {
