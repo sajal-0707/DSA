@@ -7,7 +7,7 @@ public://two sum in array
             if (seen.count(complement)) {
                 return {seen[complement], i};
             }
-            seen[nums[i]] = i;
+            seen[nums[ i] ] = i;
         }
         return {};
     }
