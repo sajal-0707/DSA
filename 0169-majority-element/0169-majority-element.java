@@ -9,10 +9,10 @@ class Solution {
         while(prev>=0 && nums[prev]>curr)
         {
             nums[prev+1]=nums[prev];
-            prev--;
+            prev-- ;
         }
-        nums[prev+1]=curr;
+         nums[prev+1]=curr ;
     }
-    return nums[n/2];
+    return nums[n/2] ;
     }
 }
